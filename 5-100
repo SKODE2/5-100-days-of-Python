@@ -1,0 +1,46 @@
+# catsOrDogs = input("Are you a cat person? Or a dog person?: ")
+# if catsOrDogs ="cat": # == "cat"
+#   print("Meow")
+# else:
+#   print("Woof")
+
+# catsOrDogs = input("Are you a cat person? Or a dog person?: ")
+# if catsOrDogs == "cat"  # :
+#   print("Meow")
+# else:
+#   print("Woof")
+
+# catsOrDogs = input("Are you a cat person? Or a dog person?: ")
+# if catsOrDogs == "cat":
+#   print("Meow")
+# else:
+# print("Woof")  # print --->
+
+# drink = input("Do you prefer coffee or tea?)
+# if drink = "coffee"
+#   print("Tea is better.")
+#     else:  # else <----
+#   print("Excellent choice.")
+
+
+p = "Marvel Movie Character Creator"
+print(f"\33[33m{p.upper()}\33[0m")
+
+
+question_1 = input("Do you like 'hanging around'?: yes/no\n>>> ")
+if question_1 == "no":
+  print("Then you're not Spider-man")
+else:
+  print("Hello! Spider-man")
+
+question_2 = input("Do you have a 'gravelly' voice?: yes/no\n>>> ")
+if question_2 == "no":
+  print("Aww, then you're not Korg")
+else:
+  print("Hello! Korg")
+
+question_3 = input("Do you often feel 'Marvelous'?: Yes/no\n>>> ")
+if question_3 == "yes":
+  print("Aha! You're Captain Marvel! Hi!")
+else:
+  print("Who are you?")
